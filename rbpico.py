@@ -151,7 +151,7 @@ def M_8bit(num,speed): # 0 - 255
 
     try:
         print ('Motor',num,motor, 'Speed:',speed)
-        bus.write_i2c_block_data(PICO_ADDR[m_num], motor, [dir0, speed,0])
+        bus.write_i2c_block_data(PICO_ADDR[m_num], [dir0, speed,0])
     except OSError:
         print('No motor with that pin number!')
     except IndexError:
