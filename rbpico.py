@@ -193,23 +193,4 @@ def readAdc_3():
     volts_3 = conversion_3 / 7891 # 3.3 Volts
     return round(volts_3,2)
 
-#----------------------------------------------------------
 
-
-
-
-
-
-
-'''
-while (True):
-    Bus.write_i2c_block_data(ADDR, 10, [0, 64,0,0])
-    time.sleep(0.1)
-    Bus.write_i2c_block_data(ADDR, 20, [0, 64,0,0])
-    time.sleep(2)
-
-    Bus.write_i2c_block_data(ADDR, 10, [0, 250,0,0])
-    time.sleep(0.1)
-    Bus.write_i2c_block_data(ADDR, 20, [0, 250,0,0])
-    time.sleep(2)
-'''
