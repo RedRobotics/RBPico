@@ -2,7 +2,7 @@
  * 2021 www.redrobotics.co.uk - @NeilRedRobotics
  * Based on the PIO_PWM example code from Raspberry Pi
  * 
- * This code turn the Raspberry Pi Pico into a i2c secondary device.
+ * This code turns the Raspberry Pi Pico into a i2c secondary device.
  * For use with the Pico 2 Pi adaptor board and RedBoard+ motor driver.
  * 
  */
